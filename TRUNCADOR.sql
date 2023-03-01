@@ -17,3 +17,9 @@ TRUNCATE TABLE relacion.lote_stock
 TRUNCATE TABLE relacion.Orden_Compra_Costo_Flete
 
 
+truncate table produccion.producto
+truncate table relacion.lote_producto
+truncate table compra.lote
+truncate table relacion.orden_compra_lote
+truncate table relacion.Lote_Stock
+update produccion.stock set disponible=1
