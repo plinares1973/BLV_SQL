@@ -23,3 +23,15 @@ truncate table compra.lote
 truncate table relacion.orden_compra_lote
 truncate table relacion.Lote_Stock
 update produccion.stock set disponible=1
+
+/*
+
+select * from proceso.Estado
+
+select * from produccion.Hoja_Fabricacion_Header
+select * from relacion.Hoja_Fab_Estado
+select * from proceso.Hoja_Fabricacion
+*/
+truncate table produccion.hoja_fabricacion_header
+truncate table  relacion.Hoja_Fab_Estado
+truncate table  proceso.Hoja_Fabricacion
