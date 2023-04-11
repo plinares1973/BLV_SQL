@@ -1,6 +1,7 @@
 USE BLV
 TRUNCATE TABLE compra.Orden_compra
 TRUNCATE TABLE compra.Orden_compra_producto
+TRUNCATE TABLE Compra.Certificado_Circulacion
 
 TRUNCATE TABLE Relacion.compra_estado
 TRUNCATE TABLE Relacion.Hoja_fab_estado
@@ -11,7 +12,7 @@ TRUNCATE TABLE Relacion.orden_compra_envio
 TRUNCATE TABLE Relacion.orden_compra_lote
 TRUNCATE TABLE Relacion.producto_compra
 TRUNCATE TABLE Relacion.Stock_Cuarentena
-
+TRUNCATE TABLE Relacion.Lote_Certificado_Circulacion
 TRUNCATE TABLE Relacion.proveedor_ordencompra
 TRUNCATE TABLE produccion.producto
 TRUNCATE TABLE relacion.lote_producto
