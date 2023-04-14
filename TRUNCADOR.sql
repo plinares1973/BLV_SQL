@@ -38,3 +38,5 @@ select * from proceso.Hoja_Fabricacion
 truncate table produccion.hoja_fabricacion_header
 truncate table  relacion.Hoja_Fab_Estado
 truncate table  proceso.Hoja_Fabricacion
+truncate table proceso.tablon_impacto_stock
+
