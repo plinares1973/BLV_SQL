@@ -40,3 +40,5 @@ truncate table  relacion.Hoja_Fab_Estado
 truncate table  proceso.Hoja_Fabricacion
 truncate table proceso.tablon_impacto_stock
 
+truncate table proceso.tablon_impacto_deposito
+truncate table proceso.relacion_tablones
