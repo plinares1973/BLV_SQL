@@ -27,6 +27,7 @@ truncate table relacion.orden_compra_lote
 truncate table relacion.Lote_Stock
 update produccion.stock set disponible=1
 
+
 /*
 
 select * from proceso.Estado
