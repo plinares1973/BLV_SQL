@@ -53,3 +53,18 @@ INSERT INTO relacion.Perfil_Concepto(id_perfil_costo,id_concepto_header,enlace_c
 VALUES(11,18,3)
 INSERT INTO relacion.Perfil_Concepto(id_perfil_costo,id_concepto_header,enlace_concepto)
 VALUES(11,21,3)
+
+
+truncate table costo.perfil_costo
+truncate table relacion.perfil_concepto
+
+
+select * from produccion.Producto_Header
+
+update produccion.Producto_Header set dimp=2
+
+update produccion.Producto_Header set dimp=0 where codigo_producto='BOL025'
+
+update produccion.Producto_Header set dimp=4 where codigo_producto='OLI001'
+
+update produccion.Producto_Header set dimp=12 where codigo_producto='3085'
