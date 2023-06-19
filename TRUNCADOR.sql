@@ -26,7 +26,10 @@ truncate table compra.lote
 truncate table relacion.orden_compra_lote
 truncate table relacion.Lote_Stock
 update produccion.stock set disponible=1
+truncate table costo.secuencia_perfil
 
+truncate table costo.perfil_costo
+truncate table relacion.perfil_concepto
 
 /*
 
@@ -43,3 +46,4 @@ truncate table proceso.tablon_impacto_stock
 
 truncate table proceso.tablon_impacto_deposito
 truncate table proceso.relacion_tablones
+truncate table proceso.costo_a_calcular
