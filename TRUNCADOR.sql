@@ -48,3 +48,7 @@ truncate table proceso.tablon_impacto_stock
 truncate table proceso.tablon_impacto_deposito
 truncate table proceso.relacion_tablones
 truncate table proceso.costo_a_calcular
+
+select * from proceso.tablon_impacto_stock
+select * from proceso.tablon_impacto_deposito
+update Produccion.Stock set disponible=1 
